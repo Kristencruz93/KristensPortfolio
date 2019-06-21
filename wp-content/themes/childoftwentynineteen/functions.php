@@ -10,4 +10,17 @@ wp_enqueue_style( 'child-style',
 );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+
+function wpb_add_google_fonts() {
+
+wp_enqueue_style( 'wpb-google-fonts','https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans+Condensed:300&display=swap', false );
+}
+
+
+add_action( 'wp_enqueue_scripts',
+'wpb_add_google_fonts' );
+
+
+
 ?>
+

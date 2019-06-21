@@ -9,3 +9,18 @@ Template: twentynineteen
 */
 
 @import url('../twentynineteen/style.css')
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans+Condensed:300&display=swap');
+
+h1, entry-title{
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+	font-size:40px;
+	color:white;
+}
+
+body{
+	
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:white;
+	Background-color:Grey;
+}
