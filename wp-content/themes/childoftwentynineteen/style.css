@@ -22,5 +22,47 @@ body{
 	
 	font-family: 'Open Sans Condensed', sans-serif;
 	color:white;
-	Background-color:Grey;
+	background-color:black;
+}
+
+
+.main-navigation .main-menu {
+  color: white;
+
+}
+
+.main-navigation .main-menu > li > a {
+  color: white;
+
+}
+
+.main-navigation .main-menu > li > a:hover {
+  color:grey;
+}
+
+.site-title a:link, .site-title a:visited {
+
+	color:white;
+}
+
+.site-title a:link, .site-title a:hover{
+	color:grey;
+}
+
+.entry .entry-meta, .entry .entry-footer{
+	color:white;
+}
+
+.entry .entry-meta, .entry .entry-footer a:hover{
+	color:grey;
+}
+
+a {
+	color:white;
+}
+
+.post-title, a:hover{
+
+	color:white;
+
 }
